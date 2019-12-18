@@ -11,10 +11,10 @@
 	git pull
 	
 	:: dir making
-	rmdir /S /Q C:\@xampp\@Program\@git_test\pagetest\temp\
-	mkdir C:\@xampp\@Program\@git_test\pagetest\temp\
-	::mkdir C:\@xampp\@Program\@git_test\pagetest\temp\temp%random%
-	echo %random% >> C:\@xampp\@Program\@git_test\pagetest\temp\%random%.txt
+	rmdir /S /Q C:\@xampp\@Program\@git\pagetest\temp\
+	mkdir C:\@xampp\@Program\@git\pagetest\temp\
+	::mkdir C:\@xampp\@Program\@git\pagetest\temp\temp%random%
+	echo %random% >> C:\@xampp\@Program\@git\pagetest\temp\%random%.txt
 
 	::Add all files in the directory
 	git add --all

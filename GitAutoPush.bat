@@ -30,7 +30,7 @@
 	echo Complete. Relaunching...
 	
 	::Wait 3600 seconds until going to the start of the loop.
-	::Change as needed.
+	::Change as needed. 2
 	TIMEOUT 360
 	
 ::Restart from the top.	

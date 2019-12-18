@@ -20,7 +20,7 @@
 	
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
-	git commit -m "auto push"
+	git commit -m "auto commit %random%"
 	
 	::Push all changes to GitHub 
 	git push

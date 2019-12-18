@@ -11,7 +11,7 @@
 	git pull
 	
 	:: dir making
-	mkdir C:\@Program\@git_test\pagetest\temp\start01
+	mkdir C:\@Program\@git_test\pagetest\temp\start%random%
 
 	::Add all files in the directory
 	git add --all

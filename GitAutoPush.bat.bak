@@ -2,7 +2,7 @@
 	:: Navigate to the directory you wish to push to GitHub
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
 	::cd C:\Users\jhpark\Documents\GitHub\Docker
-	cd C:\@xampp\@Program\@git\pagetest
+	cd C:\@Program\@git_test\pagetest
 		
 	::Initialize GitHub
 	git init
@@ -11,10 +11,10 @@
 	git pull
 	
 	:: dir making
-	rmdir /S /Q C:\@xampp\@Program\@git_test\pagetest\temp\
-	mkdir C:\@xampp\@Program\@git_test\pagetest\temp\
-	::mkdir C:\@xampp\@Program\@git_test\pagetest\temp\temp%random%
-	echo %random% >> C:\@xampp\@Program\@git_test\pagetest\temp\%random%.txt
+	rmdir /S /Q C:\@Program\@git_test\pagetest\temp\
+	mkdir C:\@Program\@git_test\pagetest\temp\
+	::mkdir C:\@Program\@git_test\pagetest\temp\temp%random%
+	echo %random% >> C:\@Program\@git_test\pagetest\temp\%random%.txt
 
 	::Add all files in the directory
 	git add --all

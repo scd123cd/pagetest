@@ -3,13 +3,16 @@
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
 	::cd C:\Users\jhpark\Documents\GitHub\Docker
 	cd C:\@Program\@git_test\pagetest
-
+		
 	::Initialize GitHub
 	git init
 	
 	::Pull any external changes (maybe you deleted a file from your repo?)
 	git pull
 	
+	:: dir making
+	mkdir /temp/start01
+
 	::Add all files in the directory
 	git add --all
 	

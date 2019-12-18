@@ -13,9 +13,8 @@
 	:: dir making
 	rmdir /S /Q C:\@Program\@git_test\pagetest\temp\
 	mkdir C:\@Program\@git_test\pagetest\temp\
-	mkdir C:\@Program\@git_test\pagetest\temp\temp%random%
-	
-	TIMEOUT 1
+	::mkdir C:\@Program\@git_test\pagetest\temp\temp%random%
+	echo %random% >> C:\@Program\@git_test\pagetest\temp\%random%.txt
 
 	::Add all files in the directory
 	git add --all

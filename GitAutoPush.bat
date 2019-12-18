@@ -12,6 +12,9 @@
 	
 	:: dir making
 	rmdir /S /Q C:\@Program\@git_test\pagetest\temp\
+	TIMEOUT 2
+	mkdir C:\@Program\@git_test\pagetest\temp\
+	TIMEOUT 2
 	mkdir C:\@Program\@git_test\pagetest\temp\temp%random%
 
 	::Add all files in the directory

@@ -14,6 +14,8 @@
 	rmdir /S /Q C:\@Program\@git_test\pagetest\temp\
 	mkdir C:\@Program\@git_test\pagetest\temp\
 	mkdir C:\@Program\@git_test\pagetest\temp\temp%random%
+	
+	TIMEOUT 1
 
 	::Add all files in the directory
 	git add --all

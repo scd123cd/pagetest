@@ -31,7 +31,7 @@
 	
 	::Wait 3600 seconds until going to the start of the loop.
 	::Change as needed. 2
-	TIMEOUT 36000
+	TIMEOUT 21600
 	
 ::Restart from the top.	
 goto loop
